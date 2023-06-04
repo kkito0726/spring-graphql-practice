@@ -22,7 +22,9 @@
 		"vscjava.vscode-spring-initializr",
 		"mwpb.java-prettier-formatter",
 		"cweijan.vscode-mysql-client2",
-		"vscjava.vscode-java-pack"
+		"vscjava.vscode-java-pack",
+		"streetsidesoftware.code-spell-checker",
+		"kumar-harsh.graphql-for-vscode"
 	]
     }
   }

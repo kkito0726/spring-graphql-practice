@@ -1,0 +1,15 @@
+type Todo {
+  id: String
+  title: String
+  completed: Boolean
+  createdAt: String
+  deletedAt: String
+}
+
+type GetTodoResponse {
+  todos: [Todo]
+}
+
+type Query {
+  getTodos: GetTodoResponse
+}

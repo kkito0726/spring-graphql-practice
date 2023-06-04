@@ -72,6 +72,7 @@ public class JpaTestController {
       todo.setTitle(dto.getTitle());
     }
 
+    // if (dto)
     todoRepository.save(todo);
 
     return ResponseEntity.ok(todo);

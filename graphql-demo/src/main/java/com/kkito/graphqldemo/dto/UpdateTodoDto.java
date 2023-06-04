@@ -10,4 +10,9 @@ import lombok.NoArgsConstructor;
 public class UpdateTodoDto {
 
   private String title;
+  private boolean completed;
+
+  private boolean getCompleted() {
+    return completed;
+  }
 }
