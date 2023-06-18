@@ -1,5 +1,5 @@
 type Todo {
-  id: String
+  id: ID
   title: String
   completed: Boolean
   createdAt: String
@@ -12,4 +12,5 @@ type GetTodoResponse {
 
 type Query {
   getTodos: GetTodoResponse
+  getTodoById(id: ID): Todo
 }
